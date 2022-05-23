@@ -26,7 +26,6 @@ $(".saveBtn").click (function() {
     $(this).siblings("textarea").val()
 
     var text = $(this).siblings("textarea").val()
-    //console.log(text)
 
     localStorage.setItem("input", text)
 
